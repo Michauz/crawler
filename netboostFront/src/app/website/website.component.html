@@ -1,0 +1,48 @@
+<div class="">
+    <div class="wrap-table100 form">
+        <form class="contact2-form validate-form">
+            <div class="wrap-input2 validate-input" >
+            <input class="input2" type="text" name="url">
+            <span class="focus-input2" data-placeholder="URL"></span>
+            </div>
+            <div class="wrap-input2 validate-input" >
+            <input class="input2" type="text" name="depth">
+            <span class="focus-input2" data-placeholder="Depth"></span>
+            </div>
+            <div class="container-contact2-form-btn">
+            <div class="wrap-contact2-form-btn">
+                <div class="contact2-form-bgbtn"></div>
+                <button class="contact2-form-btn"> Crawl </button>
+            </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="limiter">
+    <div class="container-table100">
+      <div class="wrap-table100">
+        <div class="table100 ver1 m-b-110">
+          <div class="table100-head">
+            <table>
+              <thead>
+                <tr class="row100 head">
+                  <th class="cell100 column1">URL</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+          <div class="table100-body js-pscroll">
+            <table>
+              <tbody>
+                <tr  class="row100 body" *ngFor="let st of websiteD">
+                    <td class="cell100 column1">{{st.URL}}</td>
+                </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+</div>
+    
+
